@@ -1,14 +1,13 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-user',
+  selector: "app-user",
   templateUrl: "./user.component.html",
-  styleUrls: ["./user.component.css"],
+  styleUrls: ["./user.component.css"]
   // styles:[]
 
   // // template: "<h2>John Doe</h2>"
 })
-
 export class UserComponent {
   // properties
   firstName = "John";
@@ -30,6 +29,5 @@ export class UserComponent {
 
   hasBirthday() {
     this.age += 1;
-
   }
 }
